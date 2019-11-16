@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nathanhedge/Desktop/BasketballGame/dynamicarray.cpp
+iostream
+-
+dynamicarray.h
+/Users/nathanhedge/Desktop/BasketballGame/dynamicarray.h
+player.h
+/Users/nathanhedge/Desktop/BasketballGame/player.h
+
+/Users/nathanhedge/Desktop/BasketballGame/dynamicarray.h
+vector
+-
+string
+-
+player.h
+/Users/nathanhedge/Desktop/BasketballGame/player.h
+
+/Users/nathanhedge/Desktop/BasketballGame/player.h
+string
+-
+
