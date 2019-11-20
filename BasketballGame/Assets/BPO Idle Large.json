@@ -1,0 +1,148 @@
+{ "frames": {
+   "BPO Idle Large 0.gif": {
+    "frame": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 1.gif": {
+    "frame": { "x": 128, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 2.gif": {
+    "frame": { "x": 256, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 3.gif": {
+    "frame": { "x": 384, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 4.gif": {
+    "frame": { "x": 512, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 5.gif": {
+    "frame": { "x": 640, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 6.gif": {
+    "frame": { "x": 768, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 7.gif": {
+    "frame": { "x": 896, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 8.gif": {
+    "frame": { "x": 1024, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 9.gif": {
+    "frame": { "x": 1152, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 10.gif": {
+    "frame": { "x": 1280, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 11.gif": {
+    "frame": { "x": 1408, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 12.gif": {
+    "frame": { "x": 1536, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 13.gif": {
+    "frame": { "x": 1664, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 14.gif": {
+    "frame": { "x": 1792, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "BPO Idle Large 15.gif": {
+    "frame": { "x": 1920, "y": 0, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.1.13",
+  "format": "RGBA8888",
+  "size": { "w": 2048, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Body", "opacity": 255, "blendMode": "normal" },
+   { "name": "Head", "opacity": 255, "blendMode": "normal" },
+   { "name": "Face", "opacity": 255, "blendMode": "normal" },
+   { "name": "Legs", "opacity": 255, "blendMode": "normal" },
+   { "name": "Ball", "opacity": 255, "blendMode": "normal" },
+   { "name": "Hand", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}
