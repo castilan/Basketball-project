@@ -1886,7 +1886,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 658576391}
+      - m_Target: {fileID: 1777254583}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -6334,7 +6334,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 285444467}
+      - m_Target: {fileID: 1452641992}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -6474,7 +6474,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1624781226}
+      - m_Target: {fileID: 97372877}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
