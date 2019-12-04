@@ -3904,6 +3904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827733867}
   - component: {fileID: 827733868}
+  - component: {fileID: 827733869}
   m_Layer: 0
   m_Name: Court
   m_TagString: Untagged
@@ -3984,6 +3985,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &827733869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827733866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76899a9c8f90a594f907f2e82bf58e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &863127958
 GameObject:
   m_ObjectHideFlags: 0
