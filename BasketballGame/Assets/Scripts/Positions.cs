@@ -19,13 +19,13 @@ public class Positions : MonoBehaviour
                 transform.position = new Vector3(StartPos.x, StartPos.y, StartPos.z);
                 break;
             case 1:
-                transform.position = new Vector3(StartPos.x + 4.7f, StartPos.y + 4.2f, StartPos.z);
+                transform.position = new Vector3(StartPos.x + 6f, StartPos.y + 5.5f, StartPos.z);
                 break;
             case 2:
-                transform.position = new Vector3(StartPos.x - 5.3f, StartPos.y + 3.6f, StartPos.z);
+                transform.position = new Vector3(StartPos.x - 6.8f, StartPos.y + 4.6f, StartPos.z);
                 break;
             case 3:
-                transform.position = new Vector3(StartPos.x - 2.5f, StartPos.y + 4.2f, StartPos.z);
+                transform.position = new Vector3(StartPos.x - 3f, StartPos.y + 5.5f, StartPos.z);
                 break;
         }
         
