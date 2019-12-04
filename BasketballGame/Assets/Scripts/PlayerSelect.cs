@@ -8,6 +8,8 @@ public class PlayerSelect : MonoBehaviour
 {
     public playerData displayed = new playerData();
     public Text DisplayName;
+    public Text StatBlock1;
+    public Text StatBlock2;
     private int current = 0;
     public allPlayers all = new allPlayers();
 
@@ -23,6 +25,14 @@ public class PlayerSelect : MonoBehaviour
     {
         displayed = all.players[current];
         DisplayName.text = displayed.name;
+        StatBlock1.text = "Shooting: " + displayed.shooting + "\n\nShot Contest: " + displayed.shotContest
+            + "\n\nSpeed: " + displayed.speed + "\n\nLateral Quickness: " + displayed.lateralQuickness
+            + "\n\nPassing: " + displayed.passing + "\n\nSteal: " + displayed.steal
+            + "\n\nRebounding: " + displayed.rebounding;
+        StatBlock2.text = displayed.ballHandle + " :Ball Handle\n\n" + displayed.perimeterD
+            + " :Perimeter D\n\n" + displayed.driving + " :Driving\n\n" + displayed.postShooting
+            + " :Post Shooting\n\n" + displayed.block + " :Block\n\n" + displayed.postHandle
+            + " :Post Handle\n\n" + displayed.postD + " :Post D";
     }
 
     public void next()
