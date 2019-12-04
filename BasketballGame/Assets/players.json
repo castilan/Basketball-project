@@ -1,7 +1,7 @@
 {
     "players": [
         {
-            "Sidney Moncrief",
+            "name": "Sidney Moncrief",
             "shooting": "75",
             "shotContest": "98",
             "speed": "88",
