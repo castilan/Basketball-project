@@ -8,10 +8,14 @@ public class ScoreScript : MonoBehaviour
     private int playerScore = 0;
     private int cpuScore = 0;
     Text score;
+    public GameObject scoreObj;
     public GameObject WinText;
     public GameObject LoseText;
     public GameObject RestartB;
     public GameObject Actions;
+    public GameObject Names;
+    public Text FinalScoreText;
+    public GameObject FinalScore;
 
     public int PlayerScore { get => playerScore; set => playerScore = value; }
     public int CPUScore { get => cpuScore; set => cpuScore = value; }
@@ -44,9 +48,13 @@ public class ScoreScript : MonoBehaviour
         score.text = PlayerScore + " - " + cpuScore;
         if (PlayerScore >= 21)
         {
+            FinalScoreText.text = score.text;
             WinText.SetActive(true);
             RestartB.SetActive(true);
             Actions.SetActive(false);
+            Names.SetActive(false);
+            scoreObj.SetActive(false);
+            FinalScore.SetActive(true);
         }
     }
 }
