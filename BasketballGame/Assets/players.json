@@ -2,6 +2,7 @@
     "players": [
         {
             "name": "Sidney Moncrief",
+            "initialname":  "S. Moncrief",
             "shooting": "75",
             "shotContest": "98",
             "speed": "88",
@@ -20,6 +21,7 @@
 
         {
             "name": "Mark Price",
+            "initialname": "M. Price",
             "shooting": "97",
             "shotContest": "75",
             "speed": "80",
@@ -38,6 +40,7 @@
 
         {
             "name": "Derrick Rose",
+            "initialname": "D. Rose",
             "shooting": "78",
             "shotContest": "78",
             "speed": "96",
@@ -56,6 +59,7 @@
 
         {
             "name": "Ron Artest",
+            "initialname": "R. Artest",
             "shooting": "80",
             "shotContest": "97",
             "speed": "80",
@@ -74,6 +78,7 @@
 
         {
             "name": "Tracy McGrady",
+            "initialname": "T. McGrady",
             "shooting": "86",
             "shotContest": "76",
             "speed": "90",
@@ -92,6 +97,7 @@
 
         {
             "name": "Julius Erving",
+            "initialname": "J. Erving",
             "shooting": "76",
             "shotContest": "86",
             "speed": "90",
@@ -110,6 +116,7 @@
 
         {
             "name": "Scottie Pippen",
+            "initialname": "S. Pippen",
             "shooting": "78",
             "shotContest": "97",
             "speed": "82",
@@ -128,6 +135,7 @@
 
         {
             "name": "Carmelo Anthony",
+            "initialname": "C. Anthony",
             "shooting": "92",
             "shotContest": "78",
             "speed": "86",
@@ -146,7 +154,7 @@
 
         {
             "name": "Glen Rice",
-            "shooting": "97",
+            "initialname": "G. Rice",
             "shotContest": "80",
             "speed": "80",
             "lateralQuickness": "75",
@@ -164,6 +172,7 @@
 
         {
             "name": "Alonzo Mourning",
+            "initialname": "A. Mourning",
             "shooting": "70",
             "shotContest": "90",
             "speed": "70",
@@ -182,6 +191,7 @@
 
         {
             "name": "Dirk Nowitzki",
+            "initialname": "D. Nowitzki",
             "shooting": "90",
             "shotContest": "76",
             "speed": "60",
@@ -200,6 +210,7 @@
 
         {
             "name": "Shaquille O'Neal",
+            "initialname": "S. O'Neal",
             "shooting": "50",
             "shotContest": "88",
             "speed": "85",

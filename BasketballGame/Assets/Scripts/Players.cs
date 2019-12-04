@@ -44,14 +44,14 @@ public class Players : MonoBehaviour
         rightCPU = all.players[6];
         postCPU = all.players[7];
 
-        COName.text = center.name;
-        LOName.text = left.name;
-        ROName.text = right.name;
-        POName.text = post.name;
-        CDName.text = centerCPU.name;
-        LDName.text = leftCPU.name;
-        RDName.text = rightCPU.name;
-        PDName.text = postCPU.name;
+        COName.text = center.initialname;
+        LOName.text = left.initialname;
+        ROName.text = right.initialname;
+        POName.text = post.initialname;
+        CDName.text = centerCPU.initialname;
+        LDName.text = leftCPU.initialname;
+        RDName.text = rightCPU.initialname;
+        PDName.text = postCPU.initialname;
     }
 
     // Update is called once per frame
@@ -69,7 +69,7 @@ public class Players : MonoBehaviour
     [System.Serializable]
     public class playerData
     {
-        public string name;
+        public string initialname;
         public int shooting;
         public int shotContest;
         public int speed;
