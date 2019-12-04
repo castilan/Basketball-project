@@ -13,10 +13,12 @@ public class PlayerSelect : MonoBehaviour
     private int current = 0;
     public allPlayers all = new allPlayers();
 
+    public TextAsset jsonFile;
+
     // Start is called before the first frame update
     void Start()
     {
-        string json = File.ReadAllText("Assets/players.json");
+        string json = jsonFile.text;
         all = JsonUtility.FromJson<allPlayers>(json);
     }
 

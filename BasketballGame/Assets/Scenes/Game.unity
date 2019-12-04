@@ -4449,6 +4449,7 @@ MonoBehaviour:
   LDName: {fileID: 92064559}
   RDName: {fileID: 260518601}
   PDName: {fileID: 654397265}
+  jsonFile: {fileID: 4900000, guid: 32d8db631dde2401a96dbaa7546f5757, type: 3}
 --- !u!1 &863127958
 GameObject:
   m_ObjectHideFlags: 0

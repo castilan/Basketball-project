@@ -25,18 +25,20 @@ public class Players : MonoBehaviour
     public Text RDName;
     public Text PDName;
 
+    public TextAsset jsonFile;
+
     // Start is called before the first frame update
     void Start()
     {
         //Debug.Log("GameHandler.Start");
         allPlayers all = new allPlayers();
 
-        string json = File.ReadAllText("Assets/players.json");
+        string json = jsonFile.text;
         all = JsonUtility.FromJson<allPlayers>(json);
-        center = all.players[0];
-        left = all.players[1];
-        right = all.players[2];
-        post = all.players[3];
+        center = all.players[SelectedPlayers.Center];
+        left = all.players[SelectedPlayers.Left];
+        right = all.players[SelectedPlayers.Right];
+        post = all.players[SelectedPlayers.Post];
         centerCPU = all.players[4];
         leftCPU = all.players[5];
         rightCPU = all.players[6];

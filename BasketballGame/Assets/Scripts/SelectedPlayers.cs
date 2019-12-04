@@ -4,7 +4,10 @@ using UnityEngine;
 
 public static class SelectedPlayers
 {
-    private static int center, left, right, post;
+    private static int center = 0;
+    private static int left = 1;
+    private static int right = 2;
+    private static int post = 3;
 
     public static int Center
     {

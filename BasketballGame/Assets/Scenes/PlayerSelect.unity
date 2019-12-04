@@ -1273,6 +1273,7 @@ MonoBehaviour:
   StatBlock2: {fileID: 1665104685}
   all:
     players: []
+  jsonFile: {fileID: 4900000, guid: 32d8db631dde2401a96dbaa7546f5757, type: 3}
 --- !u!1 &873475011
 GameObject:
   m_ObjectHideFlags: 0
