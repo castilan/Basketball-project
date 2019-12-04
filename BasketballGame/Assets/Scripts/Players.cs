@@ -39,11 +39,15 @@ public class Players : MonoBehaviour
         left = all.players[SelectedPlayers.Left];
         right = all.players[SelectedPlayers.Right];
         post = all.players[SelectedPlayers.Post];
-        centerCPU = all.players[4];
+        centerCPU = all.players[2];
         leftCPU = all.players[5];
-        rightCPU = all.players[6];
-        postCPU = all.players[7];
+        rightCPU = all.players[7];
+        postCPU = all.players[10];
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
         COName.text = center.initialname;
         LOName.text = left.initialname;
         ROName.text = right.initialname;
@@ -54,10 +58,20 @@ public class Players : MonoBehaviour
         PDName.text = postCPU.initialname;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SwapSides()
     {
-        
+        playerData temp1 = center;
+        playerData temp2 = left;
+        playerData temp3 = right;
+        playerData temp4 = post;
+        center = centerCPU;
+        left = leftCPU;
+        right = rightCPU;
+        post = postCPU;
+        centerCPU = temp1;
+        leftCPU = temp2;
+        rightCPU = temp3;
+        postCPU = temp4;
     }
 
     [System.Serializable]
