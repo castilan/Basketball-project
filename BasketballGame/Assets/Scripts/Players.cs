@@ -143,6 +143,98 @@ public class Players : MonoBehaviour
         }
     }
 
+    public void Drive(bool isPlayer)
+    {
+        playerData player1 = new playerData();
+        playerData player2 = new playerData();
+        switch (pos.current)
+        {
+            case 0:
+                player1 = center;
+                player2 = centerCPU;
+                break;
+            case 1:
+                player1 = right;
+                player2 = rightCPU;
+                break;
+            case 2:
+                player1 = left;
+                player2 = leftCPU;
+                break;
+            case 3:
+                player1 = post;
+                player2 = postCPU;
+                break;
+        }
+        if (!isPlayer)
+        {
+            playerData temp = player1;
+            player1 = player2;
+            player2 = temp;
+        }
+        System.Random rng = new System.Random();
+        int contest = rng.Next(4);
+        int chance = (player1.driving+player1.speed) / 2 * 3 / 4;
+        if (contest == 0)
+        {
+            chance -= player2.lateralQuickness / 2;
+        }
+        if (rng.Next(100) < chance)
+        {
+            score.shoot2(isPlayer);
+        }
+    }
+
+    public void PostShoot(bool isPlayer)
+    {
+        playerData player1 = new playerData();
+        playerData player2 = new playerData();
+        switch (pos.current)
+        {
+            case 0:
+                player1 = center;
+                player2 = centerCPU;
+                break;
+            case 1:
+                player1 = right;
+                player2 = rightCPU;
+                break;
+            case 2:
+                player1 = left;
+                player2 = leftCPU;
+                break;
+            case 3:
+                player1 = post;
+                player2 = postCPU;
+                break;
+        }
+        if (!isPlayer)
+        {
+            playerData temp = player1;
+            player1 = player2;
+            player2 = temp;
+        }
+        System.Random rng = new System.Random();
+        int contest = rng.Next(4);
+        int chance;
+        if (player1.postShooting>=player1.postHandle)
+        {
+            chance = player1.postShooting * 3 / 4;
+        }
+        else
+        {
+            chance = player1.postHandle * 3 / 4;
+        }
+        if (contest == 0)
+        {
+            chance -= player2.postD / 2;
+        }
+        if (rng.Next(100) < chance)
+        {
+            score.shoot2(isPlayer);
+        }
+    }
+
     [System.Serializable]
     public class allPlayers
     {
