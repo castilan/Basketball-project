@@ -221,7 +221,7 @@
             "ballHandle": "60",
             "perimeterD": "70",
             "driving": "90",
-            "postShooting": "89",
+            "postShooting": "50",
             "block": "89",
             "postHandle": "99",
             "postD": "90",
