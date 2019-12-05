@@ -2276,8 +2276,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7406,8 +7406,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9095,8 +9095,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9752,6 +9752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81641531b8053824794dbab5c4942a62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
 --- !u!1 &1313174485
 GameObject:
   m_ObjectHideFlags: 0
@@ -11218,8 +11219,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11965,8 +11966,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13338,8 +13339,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 167163988}
-        m_MethodName: shoot3
+      - m_Target: {fileID: 827733869}
+        m_MethodName: Shoot3
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

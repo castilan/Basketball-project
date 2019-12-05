@@ -56,5 +56,15 @@ public class ScoreScript : MonoBehaviour
             scoreObj.SetActive(false);
             FinalScore.SetActive(true);
         }
+        if (CPUScore >= 21)
+        {
+            FinalScoreText.text = score.text;
+            LoseText.SetActive(true);
+            RestartB.SetActive(true);
+            Actions.SetActive(false);
+            Names.SetActive(false);
+            scoreObj.SetActive(false);
+            FinalScore.SetActive(true);
+        }
     }
 }

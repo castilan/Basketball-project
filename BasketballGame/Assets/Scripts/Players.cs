@@ -101,19 +101,47 @@ public class Players : MonoBehaviour
         swapPos(postO, postD);
 }
 
-    /*public bool Shoot3(playerData player1, playerData player2, bool contest, bool isPlayer)
+    public void Shoot3(bool isPlayer)
     {
+        playerData player1 = new playerData();
+        playerData player2 = new playerData();
+        switch (pos.current)
+        {
+            case 0:
+                player1 = center;
+                player2 = centerCPU;
+                break;
+            case 1:
+                player1 = right;
+                player2 = rightCPU;
+                break;
+            case 2:
+                player1 = left;
+                player2 = leftCPU;
+                break;
+            case 3:
+                player1 = post;
+                player2 = postCPU;
+                break;
+        }
+        if (!isPlayer)
+        {
+            playerData temp = player1;
+            player1 = player2;
+            player2 = temp;
+        }
+        System.Random rng = new System.Random();
+        int contest = rng.Next(4);
         int chance = player1.shooting * 2 / 3;
-        if (contest)
+        if (contest==0)
         {
             chance -= player2.shotContest/2;
         }
-        System.Random rng = new System.Random();
         if (rng.Next(100) < chance)
         {
             score.shoot3(isPlayer);
         }
-    }*/
+    }
 
     [System.Serializable]
     public class allPlayers
