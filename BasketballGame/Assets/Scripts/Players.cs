@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class Players : MonoBehaviour
 {
 
-    public playerData center = new playerData();
-    public playerData left = new playerData();
-    public playerData right = new playerData();
-    public playerData post = new playerData();
-    public playerData centerCPU = new playerData();
-    public playerData leftCPU = new playerData();
-    public playerData rightCPU = new playerData();
-    public playerData postCPU = new playerData();
+    playerData center = new playerData();
+    playerData left = new playerData();
+    playerData right = new playerData();
+    playerData post = new playerData();
+    playerData centerCPU = new playerData();
+    playerData leftCPU = new playerData();
+    playerData rightCPU = new playerData();
+    playerData postCPU = new playerData();
 
     public Text COName;
     public Text LOName;
@@ -26,6 +26,20 @@ public class Players : MonoBehaviour
     public Text PDName;
 
     public TextAsset jsonFile;
+
+    public ScoreScript score;
+    public Positions pos;
+    public GameObject offense;
+    public GameObject defense;
+
+    public GameObject centerO;
+    public GameObject leftO;
+    public GameObject rightO;
+    public GameObject postO;
+    public GameObject centerD;
+    public GameObject leftD;
+    public GameObject rightD;
+    public GameObject postD;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +57,13 @@ public class Players : MonoBehaviour
         leftCPU = all.players[5];
         rightCPU = all.players[7];
         postCPU = all.players[10];
+    }
+
+    void swapPos(GameObject one, GameObject two)
+    {
+        Vector3 temp = one.transform.position;
+        one.transform.position = two.transform.position;
+        two.transform.position = temp;
     }
 
     // Update is called once per frame
@@ -72,7 +93,27 @@ public class Players : MonoBehaviour
         leftCPU = temp2;
         rightCPU = temp3;
         postCPU = temp4;
-    }
+        //pos.ChangePos(0);
+        
+        swapPos(centerO, centerD);
+        swapPos(leftO, leftD);
+        swapPos(rightO, rightD);
+        swapPos(postO, postD);
+}
+
+    /*public bool Shoot3(playerData player1, playerData player2, bool contest, bool isPlayer)
+    {
+        int chance = player1.shooting * 2 / 3;
+        if (contest)
+        {
+            chance -= player2.shotContest/2;
+        }
+        System.Random rng = new System.Random();
+        if (rng.Next(100) < chance)
+        {
+            score.shoot3(isPlayer);
+        }
+    }*/
 
     [System.Serializable]
     public class allPlayers
