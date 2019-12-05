@@ -47,3 +47,6 @@ TagManager:
   - name: select your players
     uniqueID: 4130600151
     locked: 0
+  - name: you win or lose
+    uniqueID: 1595389261
+    locked: 0
