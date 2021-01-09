@@ -1936,7 +1936,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.078431375, g: 0.12941177, b: 0.30980393, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1953,7 +1953,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 102.3086
+  orthographic size: 145.09004
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
