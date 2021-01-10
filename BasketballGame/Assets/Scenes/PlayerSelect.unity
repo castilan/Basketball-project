@@ -1488,7 +1488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 354, y: -323}
+  m_AnchoredPosition: {x: 425, y: -371.71}
   m_SizeDelta: {x: 562, y: 74.600006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021848236
@@ -1953,7 +1953,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 145.09004
+  orthographic size: 101.83727
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1978,7 +1978,7 @@ Transform:
   m_GameObject: {fileID: 1412350684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 2, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 3}
   m_Children:
   - {fileID: 742911039}
   m_Father: {fileID: 0}
@@ -2058,7 +2058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435797567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 1, z: 0}
+  m_LocalPosition: {x: -2, y: 2, z: 0}
   m_LocalScale: {x: 28.1, y: 28, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2434,7 +2434,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -164367145
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5c3376ae26590410d99cf5bbdefbe4ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
