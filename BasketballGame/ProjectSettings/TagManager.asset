@@ -41,12 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: rando background
-    uniqueID: 3514599225
-    locked: 0
   - name: select your players
     uniqueID: 4130600151
     locked: 0
   - name: you win or lose
     uniqueID: 1595389261
+    locked: 0
+  - name: rando background
+    uniqueID: 3514599225
     locked: 0
